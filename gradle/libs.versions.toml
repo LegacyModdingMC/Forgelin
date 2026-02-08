@@ -1,12 +1,12 @@
 [versions]
-fpgradle = "3.2.2"
-kotlin = "2.2.21"
+fpgradle = "3.3.0"
+kotlin = "2.3.10"
 coroutines = "1.10.2"
-serialization = "1.9.0"
+serialization = "1.10.0"
 annotations = "26.0.2-1"
-fastutil = "8.5.16"
+fastutil = "8.5.18"
 
-fplib = "1.10.5"
+fplib = "1.10.7"
 
 [libraries]
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
