@@ -92,7 +92,7 @@ val offlineJar = tasks.register<Jar>("offlineJar") {
     }
     val prefix = "META-INF/falsepatternlib_repo"
     bundledKotlin.map { it.get() }.forEach { dep ->
-        into("$prefix/${dep.group.replace('.', '/')}/${dep.name}/${dep.version!!}") {
+        into("$prefix/${dep.group!!.replace('.', '/')}/${dep.name}/${dep.version!!}") {
             from(configurations["compileClasspath"]) {
                 include("${dep.name}-${dep.version}.jar")
             }
