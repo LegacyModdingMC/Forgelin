@@ -6,7 +6,7 @@
 	  "mcversion": "${minecraftVersion}",
 	  "description": "Kotlin 2 helper library for Forge. Minecraft 1.7.10 Port",
 	  "credits": "Emberwalker, for the original Forgelin, shadowfacts for the fork",
-	  "url": "https://github.com/FalsePattern/Forgelin",
+	  "url": "https://github.com/LegacyModdingMC/Forgelin",
 	  "updateUrl": "",
 	  "authorList": [ 
       "bartimaeusnek", 
